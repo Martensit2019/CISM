@@ -1,0 +1,27 @@
+.btn {
+  display: flex;
+  width: 114px;
+  height: 31px;
+  padding: 20px 32px;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s;
+  font-size: 14px;
+  cursor: pointer;
+  background: transparent;
+  &_primary {
+    border: 1px solid var(--color-primary);
+    color: var(--color-primary);
+  }
+  &_danger {
+    border: 1px solid var(--theme-colors-danger);
+    color: var(--theme-colors-danger);
+  }
+  &_rounded {
+    border-radius: 8px;
+  }
+  &:disabled {
+    opacity: 0.5;
+    cursor: default;
+  }
+}

@@ -1,0 +1,16 @@
+.aside {
+  min-width: 282px;
+  padding: 27px 25px 60px 20px;
+}
+.search-block {
+  margin-top: 29px;
+  &__body {
+    max-height: 350px;
+    overflow-y: auto;
+  }
+}
+.preloader {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
