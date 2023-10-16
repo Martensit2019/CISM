@@ -1,3 +1,8 @@
+Для облегчения работы и уменьшения места node_modules используется пакетный менеджер pnpm
+Версия ноды > 18.12
+npm install -g pnpm
+Установка всех пакетов происходит из корневой директории командой - pnpm i
+
 # Vue 3 + TypeScript + Vite
 
 This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
